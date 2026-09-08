@@ -30,7 +30,11 @@ WORKDIR /app
 #NOTE: definimos entorno de produccion
 
 ENV NODE_ENV=production
-
+COPY --from=builder /app/node_modules ./node_modules
+COPY . .
+USER node
+EXPOSE 3000
+CMD ["node", "server.js"]
 
 
 

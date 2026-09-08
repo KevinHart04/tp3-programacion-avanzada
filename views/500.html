@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>500 - Error interno</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #111;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        text-align: center;
+      }
+
+      .error {
+        max-width: 500px;
+        padding: 30px;
+      }
+
+      h1 {
+        color: #ff7800;
+        font-size: 72px;
+        margin: 0;
+      }
+
+      h2 {
+        margin: 10px 0;
+      }
+
+      p {
+        color: #ccc;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="error">
+      <h1>500</h1>
+      <h2>Algo salió mal</h2>
+      <p>{{MESSAGE}}</p>
+    </div>
+  </body>
+</html>
