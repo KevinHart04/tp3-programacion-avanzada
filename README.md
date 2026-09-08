@@ -22,9 +22,9 @@ API REST para la gestión de tareas, desarrollada con Node.js, Express y Postgre
 
 ## Docker Compose
 
-Video demostrativo del proyecto funcionando con Docker Compose:
+En el siguiente GIF se muestra el proyecto funcionando con Docker Compose:
 
-[![Docker Compose funcionando](https://img.shields.io/badge/▶%20Ver%20video-Docker%20Compose-orange)](./docker_working.mp4)
+![Docker Compose funcionando](./docker_working.gif)
 
 ## Pruebas de los endpoints
 
