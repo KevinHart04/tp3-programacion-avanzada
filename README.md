@@ -20,6 +20,12 @@ API REST para la gestión de tareas, desarrollada con Node.js, Express y Postgre
 | PUT    | `/tasks/:id` | Modifica una tarea existente |
 | DELETE | `/tasks/:id` | Elimina una tarea            |
 
+## Docker Compose
+
+Video demostrativo del proyecto funcionando con Docker Compose:
+
+[![Docker Compose funcionando](https://img.shields.io/badge/▶%20Ver%20video-Docker%20Compose-orange)](./docker_working.mp4)
+
 ## Pruebas de los endpoints
 
 Las pruebas fueron realizadas utilizando `curl`.
